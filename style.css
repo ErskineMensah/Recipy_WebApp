@@ -1,0 +1,46 @@
+::before,
+::backdrop {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* 
+MEasuring units in css:
+- px
+- rem
+- em
+- %
+- vh,wh,yh
+*/
+
+body{
+    background-color: hsl(30, 54%, 90%);
+}
+img{
+    width: 600px;
+}
+.main_title{
+    font-family: "Young Serif", serif;
+}
+.p1{
+    font-family: "Outfit";
+}
+
+table {
+    width: 400px;
+    margin: 20px auto;
+    font-size: 18px;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+}
+
+.row_underline {
+    border-bottom: 1px solid black; /* Adds a line under each row */
+}
+h2{
+    color: hsl(14, 45%, 36%);
+}
