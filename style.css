@@ -15,15 +15,24 @@ MEasuring units in css:
 
 body{
     background-color: hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 0px 100px 0px; 
 }
 img{
-    width: 600px;
+    width: 700px;
+    border-radius: 15px;
 }
 .main_title{
     font-family: "Young Serif", serif;
 }
 .p1{
-    font-family: "Outfit";
+    font-family: "Outfit", serif;
+    font-size: 16px;
+    margin-bottom: 40px;
+    font-size: 17.5px;
+    color: hsl(30, 10%, 34%);
 }
 
 table {
@@ -39,8 +48,86 @@ th, td {
 }
 
 .row_underline {
-    border-bottom: 1px solid black; /* Adds a line under each row */
+    border-bottom: 1px solid rgba(194, 194, 194, 0.5); /* Adds a line under each row */
 }
 h2{
     color: hsl(14, 45%, 36%);
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+h1{
+    font-size: 45px;
+}
+h3{
+    color: hsl(332, 51%, 32%);
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Outfit", serif;
+}
+.maincontainer{
+    width: 700px;
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 25px;
+    padding: 35px 35px 35px 35px;
+}
+
+.pt_container{
+    border-radius: 15px;
+    background-color: rgba(250, 196, 252, 0.1);
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+}
+
+.first-list{
+    font-size: 17px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+}
+
+.list_txt{
+    margin-bottom: 20px;
+}
+
+li{
+    padding-left: 14px;
+}
+
+.second-list{
+    font-size: 17px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+}
+
+.list_txt2{
+    margin-bottom: 12px;
+}
+
+.div3{
+    border-bottom: 2px solid rgba(194, 194, 194, 0.5);
+    padding-bottom: 20px;
+}
+
+.list_txt3{
+    font-size: 17px;
+    line-height: 25px;
+}
+.list_txt3_1{
+    margin-bottom: 12px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+}
+.last_div{
+    font-size: 17px;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", serif;
+}
+
+table{
+    width: 700px;
+}
+.bolder_txt{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
 }
